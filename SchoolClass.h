@@ -1,3 +1,5 @@
+#pragma once
+
 class SchoolClass
 {
 public:
@@ -8,7 +10,7 @@ public:
 	
 	std::string getName();
 	std::vector<int> getTime();
-	std::vector<int> getDays();
+	std::vector<bool> getDays();
 	int getCredits();
 	std::string getSubject();
 	std::string getBuilding();

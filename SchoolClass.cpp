@@ -52,7 +52,7 @@ std::vector<int> SchoolClass::getTime() const {
   return _time;
 }
 
-std::vector<int> SchoolClass::getDays() const {
+std::vector<bool> SchoolClass::getDays() const {
   return _days;
 }
 
